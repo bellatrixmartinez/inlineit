@@ -1,11 +1,15 @@
-SIMPLE SINATRA APP USING THE TAMTAM GEM FOR INLINING CSS
+Simple Sinatra app for inlining external css using the tamtam gem
 
-RUN: ruby test/app_test.ruby for tests
+TEST: 
+ruby test/app_test.ruby for tests
 
-LIVE AT: inlineit.heroku.com
+LIVE AT: 
+inlineit.heroku.com
 
-GEMS: sinatra, rack-test, haml, tamtam, hpricot
+GEMS:
+sinatra, rack-test, haml, tamtam, hpricot
 
-SHOWCASES: the simplicity and power of sinatra
+SHOWCASES: 
+The simplicity and power of sinatra
 
 may I have a blue level on the rocks please
