@@ -8,6 +8,7 @@ get '/' do
   haml :index
 end
 
+
 post '/work' do
   if params[:html].nil?
     "Ups... Did you sent us an HTML file?"

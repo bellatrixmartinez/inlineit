@@ -30,6 +30,7 @@ class AppTest < Test::Unit::TestCase
     @css = Rack::Test::UploadedFile.new("test/file.css", 'text/css')
     @html = Rack::Test::UploadedFile.new("test/file.html", 'text/html')
     post '/work', :html => @html , :css => @css
-    assert last_response.body.include?('<p class="i_will_die" style="color: red; font-size: 3em;">BECUASE DESIGNERS DONT LIKE TO INLINE CSS</p>')  
+    assert last_response.body.include?('<p class="to_inline" style="color: red; font-size: 3em;">BECUASE DESIGNERS DONT LIKE TO INLINE CSS</p>')  
   end
+  
 end
