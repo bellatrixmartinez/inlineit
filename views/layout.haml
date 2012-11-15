@@ -1,0 +1,17 @@
+!!! Strict
+%html
+  %head
+    %title Inlineit. A simple CSS inline web service 
+    %meta{"http-equiv"=>"Content-Type", :content=>"text/html; charset=utf-8"}
+    %link{:href=>"/favicon.png", :rel =>"Shortcut Icon"}
+    %link{:href => "/stylesheet/styles.css", :rel => "stylesheet", :type => "text/css"} 
+    <script type="text/javascript" src="//use.typekit.net/eex8xmr.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  %body      
+    #wrapper
+      %header
+        %h1 Inlineit. 
+        %h2 A simple CSS inline web service.
+      
+      =yield  
+
